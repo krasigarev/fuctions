@@ -1,3 +1,5 @@
+# дефиниране на функция
+
 num1 = float(input())
 num2 = float(input())
 result = None
