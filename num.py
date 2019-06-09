@@ -3,14 +3,14 @@
 n = float(input())
 
 
-def number(n1):
-    if n1 < 0:
-        print('The number ' + str(n1) + ' is negative.')
-    elif n1 > 0:
-        print('The number ' + str(n1) + ' positive.')
+def sign(number):
+    if number < 0:
+        print('The number ' + str(number) + ' is negative.')
+    elif number > 0:
+        print('The number ' + str(number) + ' positive.')
     else:
         print('The number 0 is zero.')
 
 
-number(n)
+sign(n)
 
